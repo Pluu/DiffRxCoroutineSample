@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@color/black"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:showDividers="middle"
+    tools:context=".presentation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rx Case"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRxNetworkError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E88E5"
+            android:text="Network Error"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRxViewModelError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E88E5"
+            android:text="ViewModel Error"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRxLiveDataError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E88E5"
+            android:text="LiveData Error"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coroutine Case"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCoroutineNetworkError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D81B60"
+            android:text="Network Error"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCoroutineViewModelError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D81B60"
+            android:text="ViewModel Error"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCoroutineLiveDataError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D81B60"
+            android:text="LiveData Error"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
